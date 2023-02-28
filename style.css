@@ -23,6 +23,9 @@ p, i{
     font-weight: normal;
     text-transform: uppercase;
 }
+.fa-solid{
+    color: rgb(237, 54, 54);
+}
 section > div{
     display: flex;
     flex-wrap: wrap;
