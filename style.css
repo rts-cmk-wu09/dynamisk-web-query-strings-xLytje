@@ -1,0 +1,19 @@
+body, html{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+}
+p, i{
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
