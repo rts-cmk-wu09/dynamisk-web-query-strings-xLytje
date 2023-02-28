@@ -52,7 +52,7 @@ section div figure div{
 img{
     height: 288px;
     width: 288px;
-    background-color: gray;
+    background-color: lightgray;
 }
 i{
     cursor: pointer;

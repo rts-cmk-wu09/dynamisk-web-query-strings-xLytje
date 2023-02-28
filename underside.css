@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    padding: 35px 0;
+    display: flex;
+}
+h1, section, div, figure, span, a, p, img{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: black;
+    margin-bottom: 25px;
+}
+a, i, p{
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+i{
+    cursor: pointer;
+}
+img{
+    width: 712px;
+    height: 832px;
+    background-color: lightgray;
+}
+figure{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+figure > span{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
