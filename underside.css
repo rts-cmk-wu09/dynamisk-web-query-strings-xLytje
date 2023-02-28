@@ -25,7 +25,6 @@ a, i, p{
     color: black;
     font-size: 1em;
     font-weight: normal;
-    text-transform: uppercase;
 }
 i{
     cursor: pointer;
