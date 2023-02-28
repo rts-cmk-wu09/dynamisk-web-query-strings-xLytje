@@ -24,11 +24,11 @@ p, i{
     text-transform: uppercase;
 }
 .fa-solid{
-    color: rgb(237, 54, 54);
+    color: rgb(255, 100, 100);
 }
 section > div{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     align-items: center;
     justify-content: space-around;
     gap: 16px;
