@@ -7,7 +7,7 @@ body{
     font-family: 'Inter', sans-serif;
     padding: 45px 0;
 }
-h1, section, div, figure, span, p, img{
+h1, section, div, figure, span, a, p, img{
     margin: 0;
     padding: 0;
 }
@@ -17,11 +17,14 @@ h1{
     color: black;
     margin-bottom: 25px;
 }
-p, i{
+a, i{
     color: black;
     font-size: 1em;
     font-weight: normal;
     text-transform: uppercase;
+}
+a{
+    text-decoration: none;
 }
 .fa-solid{
     color: rgb(255, 100, 100);
@@ -51,6 +54,6 @@ img{
     width: 288px;
     background-color: gray;
 }
-div > span > i, div > p{
+i{
     cursor: pointer;
 }
