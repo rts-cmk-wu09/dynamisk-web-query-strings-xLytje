@@ -9,7 +9,11 @@ fetch('./data/destinations.json')
             <figure id="${destination.id}">
             <img src="./img/${destination.image}" alt="">
             <div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span><i class="${
+                localStorage.getItem(destination.id)
+                ? "fa-solid fa-heart" 
+                : "fa-regular fa-heart"
+            }"></i></span>
             <a href="/destination.html?id=${destination.id}">More</a>
             </div>
             </figure>
