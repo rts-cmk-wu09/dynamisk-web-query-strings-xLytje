@@ -13,20 +13,8 @@ fetch(`./data/${id}.json`)
         <p class="desc">${data.text}</p>
         <h3>Faciliteter</h3>
         <ul>
-            <li>Trådløst internet</li>
-            <li>Køkken</li>
-            <li>Tørretumbler</li>
-            <li>Hårtørrer</li>
+            ${data.facilities.map(facility => `<li>${facility}</li>`).join("")}
         </ul>
         </section>
         `;
-    })
-
-
-
-
-
-
-
-
-
+    });
