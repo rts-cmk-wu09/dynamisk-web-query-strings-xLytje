@@ -6,6 +6,10 @@ fetch(`./data/${id}.json`)
     .then(data => {
         // console.log(data);
         document.querySelector("body").innerHTML += `
+        <figure class="destinationslist">
+        <img src="./img/${data.image}" alt="">
+        <span><i class="fa-regular fa-heart"></i> Favorit</span>
+        </figure>
         <section>
         <h2>${data.destination}</h2>
         <h1>${data.title}</h1>

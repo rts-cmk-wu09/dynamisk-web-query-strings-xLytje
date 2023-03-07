@@ -33,16 +33,22 @@ img{
     width: 712px;
     height: 832px;
     background-color: lightgray;
+    object-fit: cover;
+    object-position: center;
 }
 figure{
     width: auto;
     height: auto;
     position: relative;
+    color: white;
 }
 figure > span{
     position: absolute;
     top: 25px;
     right: 30px;
+}
+figure i{
+    color: white;
 }
 section{
     max-width: 500px;
